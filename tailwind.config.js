@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors=require('tailwindcss/colors');
 
 module.exports = {
     content: [
@@ -6,6 +7,7 @@ module.exports = {
         './vendor/laravel/jetstream/**/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
+        './app/http/controllers/**/*.php',
     ],
 
     theme: {
